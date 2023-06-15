@@ -1,9 +1,12 @@
 import React from 'react';
+import CreateEventButton from './CreateEventButton';
+import SmallCalendar from './SmallCalendar';
 
 export default function SideBarCal() {
   return (
-    <div>
-      
-    </div>
+    <aside className='border p-5 hidden w-64 md:block'>
+      <CreateEventButton />
+      <SmallCalendar />
+    </aside>
   )
 }
